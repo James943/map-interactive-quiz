@@ -1,8 +1,8 @@
 <?php      
     $host = "localhost";  
-    $user = "jn494_james";  
-    $password = '=.4KG#v^Pjc9';  
-    $db_name = "jn494_quiz";  
+    $user = "****";  
+    $password = '****';  
+    $db_name = "****";  
       
     $con = mysqli_connect($host, $user, $password, $db_name);  
     if(mysqli_connect_errno()) {  
