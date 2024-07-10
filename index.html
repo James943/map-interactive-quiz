@@ -6,7 +6,7 @@
 		<!--character encoding for the document (Unicode) -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="CSS/normalize.css" rel="stylesheet">
-        <link rel="icon" href="Images/favicon.png">
+        <link rel="icon" href="Images/map.png">
 		<title>Quiz</title><!--web page title -->
 		<script src="JS/index.js"></script>
 	</head>
@@ -15,9 +15,25 @@
     
     <div id="wrapper">
 
-    <p>Quiz - Version 1.0.2 pre-alpha (you may encounter bugs)</p>
+    <p>Quiz - Version 1.1.0 alpha (you may encounter bugs)</p>
     
-    <button>Select Team</button>
+    <form action = "start.php" method="post">
+        
+    <label for="colour">Select colour:</label>
+    <select name="colour" id="colour">
+        <option value="blue">Blue</option>
+        <option value="purple">Purple</option>
+        <option value="orange">Orange</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+    </select>
+    
+    <label for="name">Enter name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <input type="submit" value="Start"/>
+    
+    </form>
        
     </div>
     
